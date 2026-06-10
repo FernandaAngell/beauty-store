@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💄 Beauty Store - E-commerce Full Stack de Productos de Belleza
 
-## Getting Started
+## 📚 Descripción
 
-First, run the development server:
+Beauty Store es una aplicación web full stack para la gestión y comercialización de productos de belleza, desarrollada utilizando tecnologías modernas como Next.js, NestJS, Prisma ORM y PostgreSQL.
+
+La plataforma permite visualizar productos, administrar inventario desde un panel administrativo, gestionar pedidos y realizar compras mediante un carrito de compras interactivo.
+
+---
+
+## ✨ Funcionalidades
+
+### 🛍️ Catálogo de productos
+
+Los usuarios pueden explorar una colección de productos de belleza con:
+
+* Imagen del producto
+* Nombre
+* Precio
+* Vista detallada
+
+### 🛒 Carrito de compras
+
+Sistema completo de carrito que permite:
+
+* Agregar productos
+* Incrementar cantidades
+* Disminuir cantidades
+* Eliminar productos
+* Persistencia mediante Local Storage
+
+### 📦 Gestión de pedidos
+
+Los pedidos realizados son almacenados en la base de datos y pueden visualizarse desde el panel administrativo.
+
+### 👩‍💼 Panel de administración
+
+La plataforma incluye un módulo administrativo para:
+
+* Crear productos
+* Editar productos
+* Eliminar productos
+* Consultar pedidos registrados
+
+### 🎨 Diseño moderno y elegante
+
+Interfaz inspirada en tiendas premium de cosméticos con:
+
+* Diseño minimalista
+* Tipografía elegante
+* Animaciones suaves
+* Experiencia visual enfocada en productos de belleza
+
+### 📱 Responsive Design
+
+La aplicación se adapta a diferentes dispositivos:
+
+* Desktop
+* Tablet
+* Mobile
+
+### ⚡ Comunicación Frontend - Backend
+
+Integración mediante API REST para la gestión de:
+
+* Productos
+* Pedidos
+* Operaciones CRUD
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Backend
+
+* NestJS ⚡
+* Prisma ORM 🗄️
+* PostgreSQL 🐘
+* TypeScript 📘
+* REST API 🌐
+
+### Frontend
+
+* Next.js ⚛️
+* React ⚛️
+* TailwindCSS 🎨
+* TypeScript 📘
+* Context API 🛒
+
+### Base de Datos
+
+* PostgreSQL 🐘
+
+### Deploy
+
+* Vercel ▲ (Frontend)
+* Render 🚀 (Backend)
+
+---
+
+## 📂 Estructura del proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+backend/
+frontend/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Clonar repositorio
 
-## Learn More
+```bash
+git clone https://github.com/FernandaAngell/beauty-store.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Configuración Backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+cd backend
+npm install
+npm run start:dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Configuración Frontend
 
-## Deploy on Vercel
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deploy
+
+### Frontend
+
+Desplegado en Vercel.
+
+### Backend
+
+Desplegado en Render.
+
+---
+
+## 🎯 Objetivo
+
+Este proyecto fue desarrollado con el objetivo de fortalecer habilidades en desarrollo Full Stack mediante la construcción de un e-commerce moderno, implementando arquitectura cliente-servidor, persistencia de datos, manejo de estado global, operaciones CRUD y despliegue en la nube.
+
+---
+
+## 👩‍💻 Autor
+
+### Maria Fernanda Tolosa Angel ✨
+
+Tecnóloga en Desarrollo de Sistemas Informáticos e Ingeniera de Sistemas en formación y estudiante de Ingenieria en sistemas.
+
+---
+
+## 💡 Notas
+
+Este proyecto hace parte de mi portafolio profesional y representa la aplicación práctica de conocimientos en desarrollo web moderno, bases de datos relacionales, APIs REST y despliegue de aplicaciones Full Stack. 🚀
+
