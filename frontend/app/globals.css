@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --peach: #c4724a;
+  --bg: #faf6f1;
+  --surface: #fff9f5;
+  --border: #e8ddd4;
+  --text: #2e1e16;
+  --muted: #9a7e72;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: fadeInUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.card-enter {
+  animation: fadeInUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.card-enter:nth-child(1) { animation-delay: 0.05s; }
+.card-enter:nth-child(2) { animation-delay: 0.12s; }
+.card-enter:nth-child(3) { animation-delay: 0.19s; }
+.card-enter:nth-child(4) { animation-delay: 0.26s; }
+.card-enter:nth-child(5) { animation-delay: 0.33s; }
+.card-enter:nth-child(6) { animation-delay: 0.40s; }
+
+.btn-press {
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.btn-press:active {
+  transform: scale(0.96);
+  opacity: 0.85;
+}
