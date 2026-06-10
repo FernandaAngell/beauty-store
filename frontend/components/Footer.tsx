@@ -30,8 +30,8 @@ export default function Footer() {
 
           <div style={{ width: "40px", height: "1px", background: "#e8ddd4" }} />
 
-          <p style={{ fontSize: "10px", letterSpacing: "0.15em", color: "#e8ddd4" }}>
-            © 2026 BEAUTY STORE · TODOS LOS DERECHOS RESERVADOS
+          <p style={{ fontSize: "10px", letterSpacing: "0.15em", color: "#b19a8684" }}>
+            © 2026 BEAUTY STORE - Maria Fernanda Tolosa · TODOS LOS DERECHOS RESERVADOS
           </p>
 
         </div>
