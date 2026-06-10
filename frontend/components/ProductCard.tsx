@@ -29,19 +29,36 @@ export default function ProductCard({ id, name, price, image }: ProductProps) {
         e.currentTarget.style.boxShadow = "none";
       }}
     >
-      <Link href={`/products/${id}`}>
-  <div
-    style={{
-      width: "100%",
-      height: "220px",
-      background: "#f0e8e0",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-    }}
-  >
-    Imagen
-  </div>
+   <Link href={`/products/${id}`}>
+  {image ? (
+    <div style={{ overflow: "hidden" }}>
+      <img
+        src={image}
+        alt={name}
+        style={{
+          width: "100%",
+          height: "220px",
+          objectFit: "cover",
+          display: "block",
+          transition:
+            "transform 0.5s cubic-bezier(0.22, 1, 0.36, 1)",
+        }}
+      />
+    </div>
+  ) : (
+    <div
+      style={{
+        width: "100%",
+        height: "220px",
+        background: "#f0e8e0",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      SIN IMAGEN
+    </div>
+  )}
 </Link>
 
       <div style={{ padding: "20px", display: "flex", flexDirection: "column", flex: 1 }}>
