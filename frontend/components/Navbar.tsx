@@ -59,7 +59,7 @@ export default function Navbar() {
             style={{
               fontFamily:
                 "'Cormorant Garamond', serif",
-              fontSize: window.innerWidth < 768 ? "16px" : "22px",
+              fontSize: "clamp(16px, 4vw, 22px)",
               fontWeight: 300,
               letterSpacing: "0.35em",
               color: "#c4724a",
