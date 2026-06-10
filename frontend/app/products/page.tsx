@@ -9,13 +9,13 @@ export default async function ProductsPage() {
   const products = await getProducts();
 
   return (
-    <section className="page-enter max-w-7xl mx-auto px-10 py-16">
+    <section className="page-enter max-w-7xl mx-auto px-4 md:px-10 py-10 md:py-16">
       <p style={{ fontSize: "10px", letterSpacing: "0.3em", color: "#c4724a", marginBottom: "8px" }}>
         COLECCIÓN
       </p>
       <h1 style={{
         fontFamily: "'Cormorant Garamond', serif",
-        fontSize: "42px", fontWeight: 300,
+        fontSize: "clamp(32px, 8vw, 42px)", fontWeight: 300,
         color: "#2e1e16", marginBottom: "48px"
       }}>
         Productos

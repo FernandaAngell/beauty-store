@@ -52,14 +52,14 @@ export default function Navbar() {
           "transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), background 0.3s ease, border-color 0.3s ease",
       }}
     >
-      <div className="max-w-7xl mx-auto px-10 py-5 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 md:px-10 py-4 md:py-5 flex justify-between items-center">
 
         <Link href="/">
           <h1
             style={{
               fontFamily:
                 "'Cormorant Garamond', serif",
-              fontSize: "22px",
+              fontSize: window.innerWidth < 768 ? "16px" : "22px",
               fontWeight: 300,
               letterSpacing: "0.35em",
               color: "#c4724a",
@@ -79,9 +79,9 @@ export default function Navbar() {
         </Link>
 
         <div
-          className="flex items-center gap-10"
+          className="flex items-center gap-3 md:gap-10"
           style={{
-            fontSize: "11px",
+            fontSize: "10px",
             letterSpacing: "0.18em",
             color: "#a08878",
           }}
