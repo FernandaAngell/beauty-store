@@ -22,18 +22,14 @@ export default async function ProductsPage() {
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full items-stretch">
-        {products.map((product: any) => (
-  <div
+      {products.map((product: any) => (
+  <ProductCard
     key={product.id}
-    style={{
-      padding: "20px",
-      border: "1px solid #ddd",
-      marginBottom: "10px",
-    }}
-  >
-    <h3>{product.name}</h3>
-    <p>${product.price}</p>
-  </div>
+    id={product.id}
+    name={product.name}
+    price={product.price}
+    image={product.image}
+  />
 ))}
       </div>
     </section>
