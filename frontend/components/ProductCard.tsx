@@ -30,32 +30,19 @@ export default function ProductCard({ id, name, price, image }: ProductProps) {
       }}
     >
       <Link href={`/products/${id}`}>
-        {image ? (
-          <div style={{ overflow: "hidden" }}>
-            <img
-              src={image}
-              alt={name}
-              style={{
-                width: "100%",
-                height: "220px",
-                objectFit: "cover",
-                display: "block",
-                transition: "transform 0.5s cubic-bezier(0.22, 1, 0.36, 1)"
-              }}
-              onMouseEnter={e => e.currentTarget.style.transform = "scale(1.04)"}
-              onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
-            />
-          </div>
-        ) : (
-          <div style={{
-            width: "100%", height: "220px", background: "#f0e8e0",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            fontSize: "10px", letterSpacing: "0.2em", color: "#c4b0a4"
-          }}>
-            SIN IMAGEN
-          </div>
-        )}
-      </Link>
+  <div
+    style={{
+      width: "100%",
+      height: "220px",
+      background: "#f0e8e0",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    }}
+  >
+    Imagen
+  </div>
+</Link>
 
       <div style={{ padding: "20px", display: "flex", flexDirection: "column", flex: 1 }}>
         <Link href={`/products/${id}`}>
