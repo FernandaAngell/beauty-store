@@ -31,7 +31,7 @@ export default function Footer() {
           <div style={{ width: "40px", height: "1px", background: "#e8ddd4" }} />
 
           <p style={{ fontSize: "10px", letterSpacing: "0.15em", color: "#9c7a63" }}>
-            © 2026 BEAUTY STORE - Maria Fernanda Tolosa · TODOS LOS DERECHOS RESERVADOS
+            © 2026 BEAUTY STORE - MARIA FERNANDA TOLOSA · TODOS LOS DERECHOS RESERVADOS
           </p>
 
         </div>
