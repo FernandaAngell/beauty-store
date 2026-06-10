@@ -155,7 +155,7 @@ Este proyecto fue desarrollado con el objetivo de fortalecer habilidades en desa
 
 ### Maria Fernanda Tolosa Angel ✨
 
-Tecnóloga en Desarrollo de Sistemas Informáticos e Ingeniera de Sistemas en formación.
+Tecnóloga en Desarrollo de Sistemas Informáticos e Ingeniera de Sistemas en formación y estudiante de Ingenieria en sistemas.
 
 ---
 
